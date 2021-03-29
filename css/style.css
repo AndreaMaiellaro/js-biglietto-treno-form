@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(189, 39, 122);
+}
+
+.ticket-gen-row {
+    padding: 10px 20px;
+}
+
+button {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.ticket-row {
+    padding: 10px 20px;
+}

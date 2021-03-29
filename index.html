@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+        <title>js-treno-form</title>
+    </head>
+
+    <body>
+        
+        <div class="ticket-generator">
+            <div class="ticket-gen-row">
+                <label for="generator-nome-cognome">Nome e cognome</label>
+                <input id="generator-nome-cognome" type="text" placeholder="scirivi qualcosa">
+            </div>
+            
+            <div class="ticket-gen-row">
+                <label for="generator-km">Km da percorrere</label>
+                <input id="generator-km" type="number" placeholder="scirivi qualcosa">
+            </div>
+            
+            <div class="ticket-gen-row">
+                <label for="generator-eta">Fascia di età</label>
+                <select id="generator-eta">
+                    <option value=""></option>
+                    <option value="minorenne">Minorenne</option>
+                    <option value="maggiorenne">Maggiorenne</option>
+                    <option value="over">Over 65</option>
+                </select>
+            </div>
+
+            <div class="ticket-gen-row">
+                <button id="gen-button">Genera</button>
+                <button id="cancel-button">Annulla</button>
+            </div>
+        </div>
+        
+        <div class="ticket">
+            <div class="ticket-row">Nome passeggero: <span id="result-user"></span></div>
+            <div class="ticket-row">Offerta: <span id="result-offer"></span></div>
+            <div class="ticket-row">Carrozza: <span id="result-carrozza"></span></div>
+            <div class="ticket-row">Codice CP: <span id="result-codice"></span></div>
+            <div class="ticket-row">Costo biglietto: <span id="prezzo"></span></div>
+        </div>
+
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+
+</html>
